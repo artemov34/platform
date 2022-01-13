@@ -1,5 +1,5 @@
 {
-  "name": "@artemov34/integrations",
+  "name": "@platform/integrations",
   "version": "0.0.4",
   "peerDependencies": {
     "@angular/common": "^12.0.0",
