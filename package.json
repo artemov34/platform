@@ -1,5 +1,5 @@
 {
-  "name": "@artemov34/platform/platform",
+  "name": "@artemov34/platform",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

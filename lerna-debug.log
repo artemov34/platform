@@ -1,0 +1,19 @@
+0 warn deprecated --skip-git has been replaced by --no-git-tag-version --no-push
+1 silly argv {
+1 silly argv   _: [ 'publish' ],
+1 silly argv   composed: 'publish',
+1 silly argv   lernaVersion: '4.0.0',
+1 silly argv   '$0': '/usr/local/opt/nvm/versions/node/v17.3.0/bin/lerna',
+1 silly argv   gitTagVersion: false,
+1 silly argv   'git-tag-version': false,
+1 silly argv   push: false
+1 silly argv }
+2 notice cli v4.0.0
+3 verbose rootPath /Users/andrey/Desktop/projects/new_concept/platform
+4 error Error: Invalid package name "@artemov34/platform-filters": name can only contain URL-friendly characters
+4 error     at invalidPackageName (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/npm-package-arg/npa.js:89:15)
+4 error     at Result.setName (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/npm-package-arg/npa.js:124:11)
+4 error     at new Result (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/npm-package-arg/npa.js:114:23)
+4 error     at Function.resolve (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/npm-package-arg/npa.js:61:15)
+4 error     at new Package (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/@lerna/package/index.js:95:26)
+4 error     at /Users/andrey/Desktop/projects/new_concept/platform/node_modules/@lerna/project/index.js:207:26

@@ -1,5 +1,5 @@
 {
-  "name": "@artemov34/platform/filters",
+  "name": "@artemov34/platform-filters",
   "version": "0.0.7",
   "peerDependencies": {
     "@angular/common": "^12.0.0",
