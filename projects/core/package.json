@@ -1,6 +1,6 @@
 {
-  "name": "core",
-  "version": "0.0.1",
+  "name": "@artemov34/core",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^12.0.0",
     "@angular/core": "^12.0.0"
@@ -8,5 +8,5 @@
   "dependencies": {
     "tslib": "^2.1.0"
   },
-  "gitHead": "6eeb55a3f7106502543e1a30081e1dcdc1e5c078"
+  "gitHead": "09d718ce139f03b9a75933628cb484cb3903b847"
 }
