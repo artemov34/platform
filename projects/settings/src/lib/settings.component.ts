@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-settings',
   template: `
     <p>
-      settings works!
+      settings works!!
     </p>
   `,
   styles: [
