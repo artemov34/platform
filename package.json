@@ -1,5 +1,5 @@
 {
-  "name": "platform",
+  "name": "@platform/platform",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -32,5 +32,17 @@
     "lerna": "^4.0.0",
     "ng-packagr": "^12.0.0",
     "typescript": "~4.2.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemov34/platform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemov34/platform/issues"
+  },
+  "homepage": "https://github.com/artemov34/platform#readme"
 }
