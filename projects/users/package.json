@@ -1,6 +1,6 @@
 {
-  "name": "@platform/users",
-  "version": "0.0.6",
+  "name": "@artemov34/platform/users",
+  "version": "0.0.7",
   "peerDependencies": {
     "@angular/common": "^12.0.0",
     "@angular/core": "^12.0.0"
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "09d718ce139f03b9a75933628cb484cb3903b847"
+  "gitHead": "7a978a96f6b21b404ec5e489131438349f75788b"
 }
