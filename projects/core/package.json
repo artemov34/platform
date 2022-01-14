@@ -13,8 +13,7 @@
   },
   "scripts": {
     "build": "ng build core",
-    "postpublish": "rm -rf dist/",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
+    "postpublish": "rm -rf dist/"
   },
   "gitHead": "c02a445d40687660153cca64a14091d6450d8987"
 }
