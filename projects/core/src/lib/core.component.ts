@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-core',
   template: `
     <p>
-      core works1!!
+      core works11!!
     </p>
   `,
   styles: [

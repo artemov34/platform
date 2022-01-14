@@ -10,10 +10,15 @@
 # dependencies
 /node_modules
 /projects/users/node_modules
+/projects/users/dist
 /projects/core/node_modules
+/projects/core/dist
 /projects/filters/node_modules
+/projects/filters/dist
 /projects/integrations/node_modules
+/projects/integrations/dist
 /projects/settings/node_modules
+/projects/settings/dist
 
 # profiling files
 chrome-profiler-events*.json

@@ -11,5 +11,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "7a978a96f6b21b404ec5e489131438349f75788b"
+  "scripts": {
+    "build": "ng build settings",
+    "postpublish": "rm -rf dist/",
+    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
+  },
+  "gitHead": "c02a445d40687660153cca64a14091d6450d8987"
 }

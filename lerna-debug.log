@@ -1,19 +1,159 @@
-0 warn deprecated --skip-git has been replaced by --no-git-tag-version --no-push
-1 silly argv {
-1 silly argv   _: [ 'publish' ],
-1 silly argv   composed: 'publish',
-1 silly argv   lernaVersion: '4.0.0',
-1 silly argv   '$0': '/usr/local/opt/nvm/versions/node/v17.3.0/bin/lerna',
-1 silly argv   gitTagVersion: false,
-1 silly argv   'git-tag-version': false,
-1 silly argv   push: false
-1 silly argv }
-2 notice cli v4.0.0
-3 verbose rootPath /Users/andrey/Desktop/projects/new_concept/platform
-4 error Error: Invalid package name "@artemov34/platform-filters": name can only contain URL-friendly characters
-4 error     at invalidPackageName (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/npm-package-arg/npa.js:89:15)
-4 error     at Result.setName (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/npm-package-arg/npa.js:124:11)
-4 error     at new Result (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/npm-package-arg/npa.js:114:23)
-4 error     at Function.resolve (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/npm-package-arg/npa.js:61:15)
-4 error     at new Package (/Users/andrey/Desktop/projects/new_concept/platform/node_modules/@lerna/package/index.js:95:26)
-4 error     at /Users/andrey/Desktop/projects/new_concept/platform/node_modules/@lerna/project/index.js:207:26
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   contents: 'dist',
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/andrey/Desktop/projects/new_concept/platform
+3 verbose session 998d94dc56a5a1ef
+4 verbose user-agent lerna/4.0.0/node@v12.22.8+x64 (darwin)
+5 silly argv {
+5 silly argv   _: [ 'publish' ],
+5 silly argv   contents: 'dist',
+5 silly argv   composed: 'publish',
+5 silly argv   lernaVersion: '4.0.0'
+5 silly argv }
+6 verbose rootPath /Users/andrey/Desktop/projects/new_concept/platform
+7 info current version 0.0.8
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 6
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "v0.0.6-6-g35cca2b" => {"lastTagName":"v0.0.6","lastVersion":"v0.0.6","refCount":"6","sha":"35cca2b","isDirty":false}
+18 info Looking for changed packages since v0.0.6
+19 silly checking diff projects/core
+20 silly found diff in projects/core/package-lock.json
+20 silly found diff in projects/core/package.json
+20 silly found diff in projects/core/src/lib/core.component.ts
+21 verbose filtered diff [
+21 verbose filtered diff   'projects/core/package-lock.json',
+21 verbose filtered diff   'projects/core/package.json',
+21 verbose filtered diff   'projects/core/src/lib/core.component.ts'
+21 verbose filtered diff ]
+22 silly checking diff projects/filters
+23 silly found diff in projects/filters/package-lock.json
+23 silly found diff in projects/filters/package.json
+23 silly found diff in projects/filters/src/lib/filters.component.spec.ts
+24 verbose filtered diff [
+24 verbose filtered diff   'projects/filters/package-lock.json',
+24 verbose filtered diff   'projects/filters/package.json',
+24 verbose filtered diff   'projects/filters/src/lib/filters.component.spec.ts'
+24 verbose filtered diff ]
+25 silly checking diff projects/integrations
+26 silly found diff in projects/integrations/package-lock.json
+26 silly found diff in projects/integrations/package.json
+27 verbose filtered diff [
+27 verbose filtered diff   'projects/integrations/package-lock.json',
+27 verbose filtered diff   'projects/integrations/package.json'
+27 verbose filtered diff ]
+28 silly checking diff projects/settings
+29 silly found diff in projects/settings/package-lock.json
+29 silly found diff in projects/settings/package.json
+30 verbose filtered diff [
+30 verbose filtered diff   'projects/settings/package-lock.json',
+30 verbose filtered diff   'projects/settings/package.json'
+30 verbose filtered diff ]
+31 silly checking diff projects/users
+32 silly found diff in projects/users/package-lock.json
+32 silly found diff in projects/users/package.json
+33 verbose filtered diff [ 'projects/users/package-lock.json', 'projects/users/package.json' ]
+34 verbose updated @artemov34/platform-core
+35 verbose updated @artemov34/platform-filters
+36 verbose updated @artemov34/platform-integrations
+37 verbose updated @artemov34/platform-settings
+38 verbose updated @artemov34/platform-users
+39 verbose git-describe undefined => "v0.0.6-6-g35cca2b"
+40 silly git-describe parsed => {"lastTagName":"v0.0.6","lastVersion":"v0.0.6","refCount":"6","sha":"35cca2b","isDirty":false}
+41 info execute Skipping releases
+42 silly lifecycle No script for "preversion" in "@artemov34/platform", continuing
+43 silly lifecycle No script for "preversion" in "@artemov34/platform-core", continuing
+44 silly lifecycle No script for "preversion" in "@artemov34/platform-filters", continuing
+45 silly lifecycle No script for "preversion" in "@artemov34/platform-integrations", continuing
+46 silly lifecycle No script for "preversion" in "@artemov34/platform-settings", continuing
+47 silly lifecycle No script for "preversion" in "@artemov34/platform-users", continuing
+48 silly lifecycle No script for "version" in "@artemov34/platform-core", continuing
+49 silly lifecycle No script for "version" in "@artemov34/platform-filters", continuing
+50 silly lifecycle No script for "version" in "@artemov34/platform-settings", continuing
+51 silly lifecycle No script for "version" in "@artemov34/platform-integrations", continuing
+52 silly lifecycle No script for "version" in "@artemov34/platform-users", continuing
+53 silly lifecycle No script for "version" in "@artemov34/platform", continuing
+54 silly gitAdd [
+54 silly gitAdd   'projects/core/package.json',
+54 silly gitAdd   'projects/core/package-lock.json',
+54 silly gitAdd   'projects/filters/package.json',
+54 silly gitAdd   'projects/filters/package-lock.json',
+54 silly gitAdd   'projects/settings/package.json',
+54 silly gitAdd   'projects/settings/package-lock.json',
+54 silly gitAdd   'projects/integrations/package.json',
+54 silly gitAdd   'projects/integrations/package-lock.json',
+54 silly gitAdd   'projects/users/package.json',
+54 silly gitAdd   'projects/users/package-lock.json',
+54 silly gitAdd   'lerna.json'
+54 silly gitAdd ]
+55 silly gitCommit v0.0.9
+56 verbose git [ 'commit', '-m', 'v0.0.9' ]
+57 silly gitTag v0.0.9
+58 verbose git [ 'tag', 'v0.0.9', '-m', 'v0.0.9' ]
+59 silly lifecycle No script for "postversion" in "@artemov34/platform-core", continuing
+60 silly lifecycle No script for "postversion" in "@artemov34/platform-filters", continuing
+61 silly lifecycle No script for "postversion" in "@artemov34/platform-integrations", continuing
+62 silly lifecycle No script for "postversion" in "@artemov34/platform-settings", continuing
+63 silly lifecycle No script for "postversion" in "@artemov34/platform-users", continuing
+64 silly lifecycle No script for "postversion" in "@artemov34/platform", continuing
+65 info git Pushing tags...
+66 silly gitPush origin master
+67 info publish Publishing packages to npm...
+68 info Verifying npm credentials
+69 verbose Retrieving npm user profile
+70 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 707ms
+71 silly npm profile get received {"tfa":false,"name":"artemov34","email":"artemov34@gmail.com","email_verified":true,"created":"2019-08-14T12:23:52.732Z","updated":"2020-04-24T10:22:46.644Z","cidr_whitelist":null,"fullname":"Artemov Andrey","twitter":"","github":"artemov34"}
+72 silly get npm username received {"username":"artemov34","tfa":false,"name":"artemov34","email":"artemov34@gmail.com","email_verified":true,"created":"2019-08-14T12:23:52.732Z","updated":"2020-04-24T10:22:46.644Z","cidr_whitelist":null,"fullname":"Artemov Andrey","twitter":"","github":"artemov34"}
+73 silly verifyNpmPackageAccess
+74 http fetch GET 200 https://registry.npmjs.org/-/org/artemov34/package?format=cli 601ms (cache updated)
+75 info Checking two-factor auth mode
+76 verbose Retrieving npm user profile
+77 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 291ms
+78 silly npm profile get received {"tfa":false,"name":"artemov34","email":"artemov34@gmail.com","email_verified":true,"created":"2019-08-14T12:23:52.732Z","updated":"2020-04-24T10:22:46.644Z","cidr_whitelist":null,"fullname":"Artemov Andrey","twitter":"","github":"artemov34"}
+79 silly 2FA false
+80 warn ENOLICENSE Packages @artemov34/platform-core, @artemov34/platform-filters, @artemov34/platform-integrations, @artemov34/platform-settings, and @artemov34/platform-users are missing a license.
+80 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+80 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+81 silly getCurrentSHA
+82 verbose getCurrentSHA c02a445d40687660153cca64a14091d6450d8987
+83 silly lifecycle No script for "prepublish" in "@artemov34/platform", continuing
+84 silly lifecycle No script for "prepare" in "@artemov34/platform", continuing
+85 silly lifecycle No script for "prepublishOnly" in "@artemov34/platform", continuing
+86 silly lifecycle No script for "prepack" in "@artemov34/platform", continuing
+87 verbose pack-directory projects/core/dist
+88 verbose pack-directory projects/filters/dist
+89 verbose pack-directory projects/integrations/dist
+90 verbose pack-directory projects/settings/dist
+91 verbose pack-directory projects/users/dist
+92 silly lifecycle No script for "prepublish" in "@artemov34/platform-core", continuing
+93 silly lifecycle No script for "prepublish" in "@artemov34/platform-filters", continuing
+94 silly lifecycle No script for "prepublish" in "@artemov34/platform-integrations", continuing
+95 silly lifecycle No script for "prepublish" in "@artemov34/platform-settings", continuing
+96 silly lifecycle No script for "prepublish" in "@artemov34/platform-users", continuing
+97 silly lifecycle No script for "prepare" in "@artemov34/platform-core", continuing
+98 silly lifecycle No script for "prepare" in "@artemov34/platform-filters", continuing
+99 silly lifecycle No script for "prepare" in "@artemov34/platform-integrations", continuing
+100 silly lifecycle No script for "prepare" in "@artemov34/platform-settings", continuing
+101 silly lifecycle No script for "prepare" in "@artemov34/platform-users", continuing
+102 silly lifecycle No script for "prepublishOnly" in "@artemov34/platform-core", continuing
+103 silly lifecycle No script for "prepublishOnly" in "@artemov34/platform-filters", continuing
+104 silly lifecycle No script for "prepublishOnly" in "@artemov34/platform-integrations", continuing
+105 silly lifecycle No script for "prepublishOnly" in "@artemov34/platform-settings", continuing
+106 silly lifecycle No script for "prepublishOnly" in "@artemov34/platform-users", continuing
+107 silly lifecycle No script for "prepack" in "@artemov34/platform-filters", continuing
+108 silly lifecycle No script for "prepack" in "@artemov34/platform-integrations", continuing
+109 silly lifecycle No script for "prepack" in "@artemov34/platform-settings", continuing
+110 silly lifecycle No script for "prepack" in "@artemov34/platform-core", continuing
+111 silly lifecycle No script for "prepack" in "@artemov34/platform-users", continuing
+112 error
