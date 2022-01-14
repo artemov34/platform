@@ -1,6 +1,6 @@
 {
   "name": "@artemov34/platform-settings",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "peerDependencies": {
     "@angular/common": "^12.0.0",
     "@angular/core": "^12.0.0"
@@ -15,5 +15,5 @@
     "build": "ng build settings",
     "postpublish": "rm -rf dist/"
   },
-  "gitHead": "c02a445d40687660153cca64a14091d6450d8987"
+  "gitHead": "d7ad7074019899b348fc6681f7e0417f68dd6e12"
 }
