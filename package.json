@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "build:libraries": "ng build core && ng build filters && ng build integrations && ng build settings && ng build users",
     "test": "ng test"
   },
   "private": true,
